@@ -12,7 +12,7 @@ public interface ProductService {
 	 * @param p
 	 */
 	public void addProduct(ProductEntity p);
-	
+
 	/**
 	 * Add multiple products
 	 * 
@@ -43,9 +43,10 @@ public interface ProductService {
 	 * @return
 	 */
 	public ProductEntity findProductById(Long id);
-	
+
 	/**
 	 * Get all products
+	 * 
 	 * @return
 	 */
 	public List<ProductEntity> findAllProducts();
