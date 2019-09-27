@@ -45,7 +45,7 @@ public interface ProductService {
 	public ProductEntity findProductById(Long id);
 	
 	/**
-	 * 
+	 * Get all products
 	 * @return
 	 */
 	public List<ProductEntity> findAllProducts();
